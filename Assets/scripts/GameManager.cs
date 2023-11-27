@@ -15,7 +15,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject ballPrefab;
     [SerializeField] private GameObject[] ballPositions;
     public static GameManager Instance;
+    [SerializeField] private GameObject[] ball;
+    [SerializeField] private GameObject[] BallLine;
 
+    [SerializeField] private float xInput
     void Start()
     {
         Instance = this;
